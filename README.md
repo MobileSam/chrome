@@ -1,4 +1,4 @@
- - Screen size is currently hardcoded as 1024x768.
+ - Screen size is currently hardcoded as 1920x1080.
  - A testing branch for [RandR](https://en.wikipedia.org/wiki/RandR) (i.e. "Resize desktop to fit" in CRD client) is available; Use Docker image tag **:randr**.
 
 Google Chrome via VNC
@@ -20,7 +20,7 @@ No "desktop"; session goes straight to a maximized chrome.
 
 Prerequisite: Create a Profile Volume
 --
-You need a VNC client for the initial setup. 
+You need a VNC client for the initial setup.
 
  1. `docker run -d --name chrome-profile siomiz/chrome` (NO password so DO NOT simply use -p 5900:5900 to expose it to the world!)
  2. Connect to the container via VNC. Find the container's IP address by `docker inspect -f '{{ .NetworkSettings.IPAddress }}' chrome-profile`
