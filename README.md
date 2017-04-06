@@ -1,4 +1,4 @@
- - Screen size is currently hardcoded as 1920x1080.
+ - Screen size is currently hardcoded as 1280x720.
  - A testing branch for [RandR](https://en.wikipedia.org/wiki/RandR) (i.e. "Resize desktop to fit" in CRD client) is available; Use Docker image tag **:randr**.
 
 Google Chrome via VNC
